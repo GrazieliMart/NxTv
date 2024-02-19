@@ -45,7 +45,7 @@
 
     <div class="video-container" id="top">
         <img src="img/img.png" alt="Imagem de Fundo" class="background-image">
-        <div class="video-content" style="width:100%;">
+        <div class="video-content" style="width:100%;" id="top2">
             <div class="image-container-top">
                 <img src="img/tv.png" alt="">
             </div>
@@ -74,7 +74,7 @@
         </div>
     </div>
 
-    <div class="image-container"  style="margin-top:0px">
+    <div class="image-container" >
         <div class="image-box" style="background-color: #393d79">
             <p>Aumente o <b>faturamento</b> e ganhe mais <b>mercado</b></p>
         </div>
@@ -92,8 +92,8 @@
 
 
 <div class="video-container" id="mid">
-        <img src="img/aa.png" alt="Imagem de Fundo" class="background-image" id="back-img">
-        <div class="video-content">
+       
+        <div class="video-content" id="top1">
             <div class="image-container-top">
                 <img src="img/cel.png" alt="" id="sec-img">
             </div>
