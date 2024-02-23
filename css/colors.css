@@ -604,6 +604,21 @@ h2 span {
 }
 
 @media screen and (max-width: 1000px) {
+  .image-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    background-color: #050538;
+    margin-top: 40px;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: none;
+    z-index: 1;
+    column-gap: 22px;
+    row-gap: 39px;
+}
   .navbar img {
     width: 250px;
     height: 66px;
@@ -678,7 +693,7 @@ h2 span {
     border: 2px solid;
     /* width: 160px; */
     border-radius: 10rem;
-    margin-right: 0px;
+    margin-right: 28px;
     font-weight: 600;
     padding: 0.75rem 1.5rem;
     padding-left: 21px;
@@ -686,8 +701,7 @@ h2 span {
     overflow: visible;
     text-overflow: ellipsis;
     transition: background-color .3s;
-  }
-
+}
   .button {
     display: flex;
   }
@@ -717,18 +731,17 @@ h2 span {
 
   .image-box {
     text-align: center;
-    padding: 9px;
-    margin-left: 50px;
+    padding: -8px;
+    margin-left: 34px;
+    width: 250px;
     margin-top: 15px;
-    /* width: 300PX; */
     color: #fff;
-    height: 67px;
     background-color: #fff;
     border-radius: 10px;
-    margin-right: 50px;
+    margin-right: 37px;
     box-shadow: 0 4px 8px #110a2a;
     transition: 0.3s;
-  }
+}
 
   .image-container {
     display: grid;
@@ -891,7 +904,7 @@ h2 span {
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
   .background-image {
     position: absolute;
     top: -100px;
@@ -963,19 +976,18 @@ h2 span {
 
   .image-box {
     text-align: center;
-    padding: 9px;
-    margin-left: 50px;
+    padding: -8px;
+    margin-left: 34px;
     margin-top: 15px;
-    width: 235px;
+    width: 212px;
     color: #fff;
-    height: 67px;
+    height: 69px;
     background-color: #fff;
     border-radius: 10px;
-    margin-right: 50px;
+    margin-right: 37px;
     box-shadow: 0 4px 8px #110a2a;
     transition: 0.3s;
-  }
-
+}
   .text-top1 {
     width: 282px;
     text-align: center;
@@ -987,31 +999,69 @@ h2 span {
   
 
 }
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1340px) {
+  .image-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    background-color: #050538;
+    margin-top: 40px;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: none;
+    z-index: 1;
+    column-gap: 22px;
+    row-gap: 39px;
+}
+}
+@media screen and (max-width: 1350px) {
   .image-container-top img {
     width: 100%;
   }
-
+  .image-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    background-color: #050538;
+    margin-top: 40px;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: none;
+    z-index: 1;
+    column-gap: 22px;
+    row-gap: 39px;
+}
+  #img-mob {
+    width: 669px;
+}
   #top {
     margin-top: -7px;
   }
-
   .image-box {
     text-align: center;
     padding: -8px;
     margin-left: 34px;
+    width: 350px;
     margin-top: 15px;
-    width: 212px;
     color: #fff;
-    height: 75px;
     background-color: #fff;
     border-radius: 10px;
     margin-right: 37px;
     box-shadow: 0 4px 8px #110a2a;
     transition: 0.3s;
 }
-
+.video-container h1 {
+  color: #fff;
+  font-size: 35px;
+}
+.video-container h1 {
+  color: #fff;
+  font-size: 35px;
+}
 #faixa {
   height: 65px;
 }
@@ -1031,21 +1081,6 @@ h2 span {
   margin-bottom: 50px;
   flex-wrap: wrap;
   justify-content: center;
-}
-.image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 0px;
-  background-color: #050538;
-  margin-top: 40px;
-  padding: 20px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  box-shadow: none;
-  z-index: 1;
-  column-gap: 10px;
-  row-gap: 10px;
 }
   .navbar .content {
     display: flex;
